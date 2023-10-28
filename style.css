@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    text-align: center;
+    background-color: #FFC9FF;
+}
+
+h2{
+    padding: 15px 0;
+    font-size: 33px;
+}
+
+nav{
+    padding: 7.8px 0;
+    background-color: #9A14EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.list-item a{
+    color: white;
+}
+
+.active{
+    padding: 10px;
+    background-color: #CB87F5;
+    border-radius: 5px;
+}
+
+.home{
+    padding: 7px 10px;
+    background-color: #CB87F5;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+    height: 75vh;
+}
+
+.sec-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+}
+
+.sec-home img{
+    width: 50%;
+    max-width: 650px;
+    border-radius: 10px;
+    border: solid 1px #9A14EC;
+}
+
+/* EJERCICIO 1 inicio */
+
+.ejercicio1{
+    background-color: #1DA1F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    background-color:#fff;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-img{
+    width: 50px;
+}
+
+.tweet{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tweet p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.tweet span{
+    font-size: 18px;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.stats{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.reactions, .actions{
+    display: flex;
+    gap: 10px;
+}
+
+.actions a{
+    color: black;
+}
+/* EJERCICIO 1 fin */
+
+/* EJERCICIO 3 inicio */
+
+.ejercicio3{
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dado{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.punto{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.dado1{
+    justify-content: center;
+    align-items: center;
+}
+
+.doble{
+    display: flex;
+    justify-content: space-between;
+}
+
+.puntoDB{
+    align-self: flex-end;
+}
+
+.puntoC{
+    align-self: center;
+}
+
+/* EJERCICIO 3 fin */
+
+/* EJERCICIO 5 inicio */
+
+.ejercicio5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    max-width: 960px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.servicios li{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    gap: 10px;
+}
+
+/* EJERCICIO 5 fin */
+
+/* EJERCICIO 7 inicio */
+
+.ejercicio7{
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+    height: auto;
+}
+
+.cards{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    background-color: #434343;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 40px;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: solid 1px #fff;
+}
+
+.card:hover{
+    background-color: #6b6a6a;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 182px;
+}
+
+.card-list li{
+    list-style: inside;
+    font-size: 12px;
+}
+
+.card-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #2175A0;
+    background-color: #C7C7C7;
+}
+
+/* EJERCICIO 7 fin */
+
+/* EJERCICIO 11 inicio */
+
+.footer11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-credits{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 110px;
+}
+
+.top-col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.footer-item a{
+    color: #333333;
+    font-size: 12px;
+}
+
+.link{
+    padding: 0 15px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 20px 0;
+}
+
+/* EJERCICIO 11 fin */
+
+/* EJERCICIO 12 inicio */
+
+.ejercicio12{
+    background-color: #606265;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share{
+    background-color:#fff;
+    border-radius: 5px;
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.close-x{
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+button{
+    width: 150px;
+    height: 45px;
+    padding: 0 10px 5px 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+button>i {
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.facebook{
+    background-color: #405896;
+}
+
+.twitter{
+    background-color: #1DA1F2;
+}
+
+.reddit{
+    background-color: #000;
+}
+
+/* EJERCICIO 12 fin */
+
+.footer{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #CB87F5;
+}
